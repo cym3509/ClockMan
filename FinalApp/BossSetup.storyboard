@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zmo-HF-tIx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--設定正職薪資-->
+        <scene sceneID="2xK-G7-dFY">
+            <objects>
+                <viewController storyboardIdentifier="BossSetupFulltimeSalaryVC" id="Zmo-HF-tIx" customClass="BossSetupFulltimeSalaryVC" customModule="FinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ux9-yH-xDB"/>
+                        <viewControllerLayoutGuide type="bottom" id="MsI-TI-y26"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6fI-sK-b46">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="底薪：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZS1-Nh-J3L">
+                                <rect key="frame" x="32" y="60" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="41T-YR-oS5"/>
+                                    <constraint firstAttribute="height" constant="21" id="oCx-T8-Zrv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4vY-jx-Ejn">
+                                <rect key="frame" x="139" y="55" width="204" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eJo-qX-gE8"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="ASCIICapableNumberPad" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Zmo-HF-tIx" id="dwH-3T-ka7"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoz-iH-inY" customClass="RoundButton" customModule="FinalApp" customModuleProvider="target">
+                                <rect key="frame" x="137" y="243" width="102" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="DZo-Dw-IX6"/>
+                                    <constraint firstAttribute="height" constant="49" id="rnG-oo-dQg"/>
+                                </constraints>
+                                <state key="normal" title="確認修改">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clickSubmit:" destination="Zmo-HF-tIx" eventType="touchUpInside" id="8xC-MP-veT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.086885832250000003" green="0.1063912436" blue="0.25109076499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MsI-TI-y26" firstAttribute="top" secondItem="eoz-iH-inY" secondAttribute="bottom" constant="375" id="J7Y-mq-fI0"/>
+                            <constraint firstItem="eoz-iH-inY" firstAttribute="centerX" secondItem="6fI-sK-b46" secondAttribute="centerX" id="V1q-oY-VWk"/>
+                            <constraint firstItem="ZS1-Nh-J3L" firstAttribute="top" secondItem="ux9-yH-xDB" secondAttribute="bottom" constant="40" id="WDd-ME-3Zi"/>
+                            <constraint firstItem="ZS1-Nh-J3L" firstAttribute="leading" secondItem="C7A-R5-hX2" secondAttribute="leading" constant="32" id="d8d-fT-xam"/>
+                            <constraint firstItem="C7A-R5-hX2" firstAttribute="trailing" secondItem="4vY-jx-Ejn" secondAttribute="trailing" constant="32" id="jsG-Cf-Mbq"/>
+                            <constraint firstItem="4vY-jx-Ejn" firstAttribute="centerY" secondItem="ZS1-Nh-J3L" secondAttribute="centerY" id="sHk-fc-dX0"/>
+                            <constraint firstItem="4vY-jx-Ejn" firstAttribute="leading" secondItem="ZS1-Nh-J3L" secondAttribute="trailing" constant="16" id="wmQ-Ek-FHn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="C7A-R5-hX2"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="設定正職薪資" id="5KD-DK-gkh"/>
+                    <connections>
+                        <outlet property="btnSubmit" destination="eoz-iH-inY" id="gMf-gK-lzu"/>
+                        <outlet property="textBaseSalary" destination="4vY-jx-Ejn" id="Ps2-2A-8p3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EKm-sw-trw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3890.4000000000001" y="-764.16791604197908"/>
+        </scene>
+        <!--颱風與國定假 薪資設定-->
+        <scene sceneID="tS8-Rc-PQz">
+            <objects>
+                <viewController id="bR2-bJ-Ccy" customClass="BossSetupFulltimeSalaryVC" customModule="FinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AgZ-uA-h9f"/>
+                        <viewControllerLayoutGuide type="bottom" id="xhh-bf-bn3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nNZ-sl-WL6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="倍率：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOX-OZ-Zqb">
+                                <rect key="frame" x="32" y="60" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="g5U-cK-CAG"/>
+                                    <constraint firstAttribute="width" constant="91" id="ls2-Ny-xJL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wl5-vs-mg5">
+                                <rect key="frame" x="139" y="55" width="204" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ZAp-Q5-FYF"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="ASCIICapableNumberPad" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="bR2-bJ-Ccy" id="gU9-Nd-uUk"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WjN-oQ-tek" customClass="RoundButton" customModule="FinalApp" customModuleProvider="target">
+                                <rect key="frame" x="136.5" y="243" width="102" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="VeQ-Vl-WBC"/>
+                                    <constraint firstAttribute="width" constant="102" id="ZUf-Gj-jIh"/>
+                                </constraints>
+                                <state key="normal" title="確認修改">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clickSubmit:" destination="bR2-bJ-Ccy" eventType="touchUpInside" id="Ybj-Mw-oGg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.086885832250000003" green="0.1063912436" blue="0.25109076499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WjN-oQ-tek" firstAttribute="centerX" secondItem="nNZ-sl-WL6" secondAttribute="centerX" id="It0-K8-NBr"/>
+                            <constraint firstItem="JOX-OZ-Zqb" firstAttribute="leading" secondItem="LbV-CS-u9i" secondAttribute="leading" constant="32" id="JcY-zA-jRi"/>
+                            <constraint firstItem="wl5-vs-mg5" firstAttribute="centerY" secondItem="JOX-OZ-Zqb" secondAttribute="centerY" id="QUY-PJ-8PF"/>
+                            <constraint firstItem="JOX-OZ-Zqb" firstAttribute="top" secondItem="AgZ-uA-h9f" secondAttribute="bottom" constant="40" id="U95-Re-3KE"/>
+                            <constraint firstItem="wl5-vs-mg5" firstAttribute="leading" secondItem="JOX-OZ-Zqb" secondAttribute="trailing" constant="16" id="bof-gg-6Ju"/>
+                            <constraint firstItem="LbV-CS-u9i" firstAttribute="trailing" secondItem="wl5-vs-mg5" secondAttribute="trailing" constant="32" id="lZO-8y-Bs3"/>
+                            <constraint firstItem="WjN-oQ-tek" firstAttribute="top" secondItem="wl5-vs-mg5" secondAttribute="bottom" constant="158" id="vRn-Io-8tE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LbV-CS-u9i"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="颱風與國定假 薪資設定" id="5S0-q9-bM1"/>
+                    <connections>
+                        <outlet property="btnSubmit" destination="WjN-oQ-tek" id="Sfh-8O-4lx"/>
+                        <outlet property="textBaseSalary" destination="wl5-vs-mg5" id="p56-NI-MZF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ty-O4-b73" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4518" y="-764"/>
+        </scene>
+    </scenes>
+</document>

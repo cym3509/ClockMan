@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000F013B1F735E950003F414 /* MemberEditDayoffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F013A1F735E950003F414 /* MemberEditDayoffViewController.swift */; };
+		000F013D1F73B83A0003F414 /* BossNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F013C1F73B83A0003F414 /* BossNotificationViewController.swift */; };
+		002AD9A41ED0185D004B8B95 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002AD9A31ED0185D004B8B95 /* ResetPasswordViewController.swift */; };
+		00406FCA1ECB1B1A0019BA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00406FC91ECB1B1A0019BA81 /* AppDelegate.swift */; };
+		00406FD21ECB1B1A0019BA81 /* FinalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00406FD01ECB1B1A0019BA81 /* FinalApp.xcdatamodeld */; };
+		00406FD41ECB1B1A0019BA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00406FD31ECB1B1A0019BA81 /* Assets.xcassets */; };
+		00406FD71ECB1B1A0019BA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00406FD51ECB1B1A0019BA81 /* LaunchScreen.storyboard */; };
+		00406FE21ECB1B1A0019BA81 /* FinalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00406FE11ECB1B1A0019BA81 /* FinalAppTests.swift */; };
+		00406FED1ECB1B1A0019BA81 /* FinalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00406FEC1ECB1B1A0019BA81 /* FinalAppUITests.swift */; };
+		00406FFB1ECB1B560019BA81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00406FFA1ECB1B560019BA81 /* GoogleService-Info.plist */; };
+		00406FFD1ECB1E980019BA81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00406FFC1ECB1E980019BA81 /* HomeViewController.swift */; };
+		00437BE71ECEAE90002BAA90 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00437BE61ECEAE8F002BAA90 /* LoginViewController.swift */; };
+		0044E4C01F39F09B00861D4C /* MemberDayoffDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0044E4BF1F39F09B00861D4C /* MemberDayoffDetailsViewController.swift */; };
+		0058F6591FDD59E9008DB927 /* totalHealthInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058F6561FDD59E7008DB927 /* totalHealthInsuranceViewController.swift */; };
+		0058F65A1FDD59E9008DB927 /* healthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058F6571FDD59E8008DB927 /* healthCell.swift */; };
+		0058F65B1FDD59E9008DB927 /* healthWorkInsurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058F6581FDD59E9008DB927 /* healthWorkInsurance.swift */; };
+		0058F65D1FDD5E57008DB927 /* totalWorkInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058F65C1FDD5E57008DB927 /* totalWorkInsuranceViewController.swift */; };
+		0058F65F1FDD600C008DB927 /* workCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058F65E1FDD600C008DB927 /* workCell.swift */; };
+		00622E241F454C25008DADAC /* MemberSheetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00622E231F454C25008DADAC /* MemberSheetCollectionViewCell.swift */; };
+		00622E281F455656008DADAC /* memberSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00622E271F455656008DADAC /* memberSheet.swift */; };
+		006334311F2AE792007BF837 /* BossSalaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006334291F2AE792007BF837 /* BossSalaryViewController.swift */; };
+		006334321F2AE792007BF837 /* BossShowSalaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063342A1F2AE792007BF837 /* BossShowSalaryViewController.swift */; };
+		006334331F2AE792007BF837 /* BossSalaryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063342B1F2AE792007BF837 /* BossSalaryDetailsViewController.swift */; };
+		006334341F2AE792007BF837 /* BossSalarySettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063342C1F2AE792007BF837 /* BossSalarySettingViewController.swift */; };
+		006334351F2AE792007BF837 /* salarySettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063342D1F2AE792007BF837 /* salarySettingCell.swift */; };
+		006334361F2AE792007BF837 /* hourlyPaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063342E1F2AE792007BF837 /* hourlyPaid.swift */; };
+		006334371F2AE792007BF837 /* salaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063342F1F2AE792007BF837 /* salaryCell.swift */; };
+		006334381F2AE792007BF837 /* salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006334301F2AE792007BF837 /* salary.swift */; };
+		0066E7741ED0827A003C7534 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0066E7731ED0827A003C7534 /* SignUpViewController.swift */; };
+		0066E7781ED191EB003C7534 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0066E7771ED191EB003C7534 /* RoundButton.swift */; };
+		00853D731FD5A7E700BB5F3B /* BossShowSalaryFTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00853D721FD5A7E700BB5F3B /* BossShowSalaryFTViewController.swift */; };
+		00868BA945539C0A8E875913 /* Pods_FinalAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C32E21334A4AF6F415E4727 /* Pods_FinalAppTests.framework */; };
+		00886B031F60F81800AE0EDE /* recordDatedetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00886B021F60F81800AE0EDE /* recordDatedetailViewController.swift */; };
+		00886B051F60F82300AE0EDE /* recordDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00886B041F60F82300AE0EDE /* recordDateViewController.swift */; };
+		00886B071F61A9AC00AE0EDE /* Dayoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00886B061F61A9AC00AE0EDE /* Dayoff.swift */; };
+		00886B091F61A9B700AE0EDE /* dayoffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00886B081F61A9B700AE0EDE /* dayoffTableViewCell.swift */; };
+		00886B0B1F61A9C000AE0EDE /* detailmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00886B0A1F61A9C000AE0EDE /* detailmailViewController.swift */; };
+		00886B101F6CCAA800AE0EDE /* groupleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00886B0E1F6CCAA800AE0EDE /* groupleTableViewCell.swift */; };
+		00886B111F6CCAA800AE0EDE /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00886B0F1F6CCAA800AE0EDE /* GroupViewController.swift */; };
+		00886B131F6CCB4200AE0EDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00886B121F6CCB4200AE0EDE /* User.swift */; };
+		00ACC3541F0B96AC00AC3F03 /* BossSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ACC3531F0B96AC00AC3F03 /* BossSettingViewController.swift */; };
+		00C0CDCF1F52B7430005CB9A /* BossHolidaySettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C0CDCE1F52B7430005CB9A /* BossHolidaySettingViewController.swift */; };
+		00C0CDD11F52B9150005CB9A /* HolidaySettingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C0CDD01F52B9150005CB9A /* HolidaySettingCollectionViewCell.swift */; };
+		00C0CDD31F5D4FC10005CB9A /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C0CDD21F5D4FC10005CB9A /* EditProfileViewController.swift */; };
+		00ED801E1EE4354300E9C72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ED801D1EE4354300E9C72F /* Main.storyboard */; };
+		00ED80221EE4415700E9C72F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ED80211EE4415700E9C72F /* SWRevealViewController.m */; };
+		00ED80381EE7B92100E9C72F /* BossWorkRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED80371EE7B92100E9C72F /* BossWorkRecordViewController.swift */; };
+		00EEB7471F342355006A709D /* BossHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEB7441F342355006A709D /* BossHomeViewController.swift */; };
+		00EEB7481F342355006A709D /* BossHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEB7451F342355006A709D /* BossHomeCollectionViewCell.swift */; };
+		00EEB7491F342355006A709D /* collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEB7461F342355006A709D /* collection.swift */; };
+		00EEB74B1F343A24006A709D /* MemberDayOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEB74A1F343A24006A709D /* MemberDayOffViewController.swift */; };
+		18214FF11F5F154800091B65 /* recorddetailmontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18214FF01F5F154800091B65 /* recorddetailmontViewController.swift */; };
+		183A2B051FA63BFF0085F1C4 /* bossdayoffcountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A2B041FA63BFF0085F1C4 /* bossdayoffcountTableViewCell.swift */; };
+		18629C111F82559900AAE31F /* MemberchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18629C101F82559900AAE31F /* MemberchangeViewController.swift */; };
+		18629C131F8255FF00AAE31F /* changeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18629C121F8255FF00AAE31F /* changeTableViewCell.swift */; };
+		18629C151F8261FE00AAE31F /* Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18629C141F8261FE00AAE31F /* Change.swift */; };
+		18629C191F82712900AAE31F /* changedetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18629C181F82712900AAE31F /* changedetailViewController.swift */; };
+		18629C1D1FA318B400AAE31F /* dayoffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18629C1C1FA318B400AAE31F /* dayoffViewController.swift */; };
+		18629C211FA38AD800AAE31F /* dayoff2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18629C201FA38AD800AAE31F /* dayoff2ViewController.swift */; };
+		18629C231FA39CB600AAE31F /* Memberchange2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18629C221FA39CB600AAE31F /* Memberchange2ViewController.swift */; };
+		18629C2B1FA4570000AAE31F /* memberchangecountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18629C2A1FA4570000AAE31F /* memberchangecountTableViewCell.swift */; };
+		18BC50891F5EC73C00CB8D7A /* MemberHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BC50881F5EC73C00CB8D7A /* MemberHomeViewController.swift */; };
+		3804E11B1F4403EA002FDE6A /* SalaryrecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804E11A1F4403EA002FDE6A /* SalaryrecordViewController.swift */; };
+		3804E11D1F440432002FDE6A /* SalaryrecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804E11C1F440432002FDE6A /* SalaryrecordTableViewCell.swift */; };
+		3804E11F1F44044D002FDE6A /* Salaryrecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804E11E1F44044D002FDE6A /* Salaryrecord.swift */; };
+		381C05E31F1F299300CF0E6B /* recordMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C05E21F1F299200CF0E6B /* recordMemberViewController.swift */; };
+		381C05E51F1F2D3100CF0E6B /* recordMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C05E41F1F2D3100CF0E6B /* recordMemberTableViewCell.swift */; };
+		381C05EB1F25C70B00CF0E6B /* memberrecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C05EA1F25C70B00CF0E6B /* memberrecord.swift */; };
+		38B07F951F1128C8003F45DC /* detailpopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B07F941F1128C8003F45DC /* detailpopViewController.swift */; };
+		38CEE09B1F06AC8F00ED7F48 /* menuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CEE09A1F06AC8F00ED7F48 /* menuTableViewController.swift */; };
+		38D976711F272097006A4C1C /* recordmonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D976701F272097006A4C1C /* recordmonthViewController.swift */; };
+		38DD9B521F38B6F500272A74 /* MemberdayoffrecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD9B511F38B6F500272A74 /* MemberdayoffrecordViewController.swift */; };
+		38DD9B541F38B76C00272A74 /* memberdayoffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD9B531F38B76C00272A74 /* memberdayoffTableViewCell.swift */; };
+		38DD9B561F38B7C100272A74 /* Memberdayoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD9B551F38B7C100272A74 /* Memberdayoff.swift */; };
+		38DD9B581F39863A00272A74 /* Memberdayoffrecord2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD9B571F39863A00272A74 /* Memberdayoffrecord2ViewController.swift */; };
+		38DD9B5A1F42A8E800272A74 /* MemberWorkRecord2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD9B591F42A8E800272A74 /* MemberWorkRecord2ViewController.swift */; };
+		38DD9B5C1F42AE8400272A74 /* MemberdetailrecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD9B5B1F42AE8400272A74 /* MemberdetailrecordViewController.swift */; };
+		38F3DBB21F187B29008C643B /* BossSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBB11F187B29008C643B /* BossSheetViewController.swift */; };
+		38F3DBB41F187B31008C643B /* ScheduleCalendarPickDialogCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBB31F187B31008C643B /* ScheduleCalendarPickDialogCollectionViewController.swift */; };
+		38F3DBB61F187B3A008C643B /* ScheduleCalanderPickDialogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBB51F187B3A008C643B /* ScheduleCalanderPickDialogCollectionViewCell.swift */; };
+		38F3DBB81F187B43008C643B /* BossAddSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBB71F187B43008C643B /* BossAddSheetViewController.swift */; };
+		38F3DBBA1F187B4B008C643B /* sheetName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBB91F187B4B008C643B /* sheetName.swift */; };
+		38F3DBBC1F187B55008C643B /* sheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBBB1F187B55008C643B /* sheetCell.swift */; };
+		38F3DBBE1F187B5B008C643B /* showSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBBD1F187B5B008C643B /* showSheet.swift */; };
+		38F3DBC21F1B411E008C643B /* recorddateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBC11F1B411E008C643B /* recorddateTableViewCell.swift */; };
+		38F3DBC41F1BB3BA008C643B /* daterecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBC31F1BB3BA008C643B /* daterecord.swift */; };
+		38F3DBC81F1C9422008C643B /* MembermenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBC71F1C9422008C643B /* MembermenuTableViewController.swift */; };
+		38F3DBD01F1D1FDF008C643B /* MemberSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBCF1F1D1FDF008C643B /* MemberSheetViewController.swift */; };
+		38F3DBD21F1D2099008C643B /* MemberNotificationViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBD11F1D2099008C643B /* MemberNotificationViewControllerViewController.swift */; };
+		38F3DBD41F1D20BE008C643B /* MemberWorkRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3DBD31F1D20BE008C643B /* MemberWorkRecordViewController.swift */; };
+		4F766CD51FB3FCFB002D2EEC /* BossSetupFulltimeSalaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F766CD11FB3FCFA002D2EEC /* BossSetupFulltimeSalaryVC.swift */; };
+		4F766CD61FB3FCFB002D2EEC /* BossSetup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F766CD21FB3FCFA002D2EEC /* BossSetup.storyboard */; };
+		4F766CD71FB3FCFB002D2EEC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F766CD31FB3FCFA002D2EEC /* BaseViewController.swift */; };
+		4F766CD81FB3FCFB002D2EEC /* FullTimeSalaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F766CD41FB3FCFA002D2EEC /* FullTimeSalaryModel.swift */; };
+		A8AB9530AE991C8CF2245F99 /* Pods_FinalApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCB1C7801ED12891410F94A /* Pods_FinalApp.framework */; };
+		CACEF6308129B6C396E6742B /* Pods_FinalAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC7B9D96994D5F77619F5D8 /* Pods_FinalAppUITests.framework */; };
+		D912624F1F6F6A54004D9C99 /* checkloginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912624E1F6F6A54004D9C99 /* checkloginViewController.swift */; };
+		D918ED721F5E4BF500790B55 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918ED6E1F5E4BF500790B55 /* Bolts.framework */; };
+		D918ED731F5E4BF500790B55 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918ED6F1F5E4BF500790B55 /* FBSDKCoreKit.framework */; };
+		D918ED741F5E4BF500790B55 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918ED701F5E4BF500790B55 /* FBSDKLoginKit.framework */; };
+		D918ED751F5E4BF500790B55 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918ED711F5E4BF500790B55 /* FBSDKShareKit.framework */; };
+		D918ED771F5E4F4800790B55 /* FBCompanyNumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918ED761F5E4F4800790B55 /* FBCompanyNumViewController.swift */; };
+		D9F6DA271F380C1900C346B9 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F6DA261F380C1900C346B9 /* QRScannerController.swift */; };
+		D9F6DA291F380C2500C346B9 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F6DA281F380C2500C346B9 /* Clock.swift */; };
+		D9F6DA2B1F380C3200C346B9 /* QRcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F6DA2A1F380C3200C346B9 /* QRcodeViewController.swift */; };
+		D9F6DA2D1F380C4700C346B9 /* setlocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F6DA2C1F380C4700C346B9 /* setlocationViewController.swift */; };
+		D9F6DA2F1F380C4E00C346B9 /* sclockinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F6DA2E1F380C4E00C346B9 /* sclockinViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00406FDE1ECB1B1A0019BA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00406FBE1ECB1B1A0019BA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00406FC51ECB1B1A0019BA81;
+			remoteInfo = FinalApp;
+		};
+		00406FE91ECB1B1A0019BA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00406FBE1ECB1B1A0019BA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00406FC51ECB1B1A0019BA81;
+			remoteInfo = FinalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000F013A1F735E950003F414 /* MemberEditDayoffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberEditDayoffViewController.swift; sourceTree = "<group>"; };
+		000F013C1F73B83A0003F414 /* BossNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossNotificationViewController.swift; sourceTree = "<group>"; };
+		002AD9A31ED0185D004B8B95 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		00406FC61ECB1B1A0019BA81 /* FinalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00406FC91ECB1B1A0019BA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00406FD11ECB1B1A0019BA81 /* FinalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalApp.xcdatamodel; sourceTree = "<group>"; };
+		00406FD31ECB1B1A0019BA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00406FD61ECB1B1A0019BA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00406FD81ECB1B1A0019BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00406FDD1ECB1B1A0019BA81 /* FinalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00406FE11ECB1B1A0019BA81 /* FinalAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAppTests.swift; sourceTree = "<group>"; };
+		00406FE31ECB1B1A0019BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00406FE81ECB1B1A0019BA81 /* FinalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00406FEC1ECB1B1A0019BA81 /* FinalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAppUITests.swift; sourceTree = "<group>"; };
+		00406FEE1ECB1B1A0019BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00406FFA1ECB1B560019BA81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00406FFC1ECB1E980019BA81 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		00437BE61ECEAE8F002BAA90 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0044E4BF1F39F09B00861D4C /* MemberDayoffDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberDayoffDetailsViewController.swift; sourceTree = "<group>"; };
+		0058F6561FDD59E7008DB927 /* totalHealthInsuranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = totalHealthInsuranceViewController.swift; sourceTree = "<group>"; };
+		0058F6571FDD59E8008DB927 /* healthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = healthCell.swift; sourceTree = "<group>"; };
+		0058F6581FDD59E9008DB927 /* healthWorkInsurance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = healthWorkInsurance.swift; sourceTree = "<group>"; };
+		0058F65C1FDD5E57008DB927 /* totalWorkInsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totalWorkInsuranceViewController.swift; sourceTree = "<group>"; };
+		0058F65E1FDD600C008DB927 /* workCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workCell.swift; sourceTree = "<group>"; };
+		00622E231F454C25008DADAC /* MemberSheetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberSheetCollectionViewCell.swift; sourceTree = "<group>"; };
+		00622E271F455656008DADAC /* memberSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memberSheet.swift; sourceTree = "<group>"; };
+		006334291F2AE792007BF837 /* BossSalaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossSalaryViewController.swift; sourceTree = "<group>"; };
+		0063342A1F2AE792007BF837 /* BossShowSalaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossShowSalaryViewController.swift; sourceTree = "<group>"; };
+		0063342B1F2AE792007BF837 /* BossSalaryDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossSalaryDetailsViewController.swift; sourceTree = "<group>"; };
+		0063342C1F2AE792007BF837 /* BossSalarySettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossSalarySettingViewController.swift; sourceTree = "<group>"; };
+		0063342D1F2AE792007BF837 /* salarySettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = salarySettingCell.swift; sourceTree = "<group>"; };
+		0063342E1F2AE792007BF837 /* hourlyPaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hourlyPaid.swift; sourceTree = "<group>"; };
+		0063342F1F2AE792007BF837 /* salaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = salaryCell.swift; sourceTree = "<group>"; };
+		006334301F2AE792007BF837 /* salary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = salary.swift; sourceTree = "<group>"; };
+		0066E7731ED0827A003C7534 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0066E7771ED191EB003C7534 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		00853D721FD5A7E700BB5F3B /* BossShowSalaryFTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossShowSalaryFTViewController.swift; sourceTree = "<group>"; };
+		00886B021F60F81800AE0EDE /* recordDatedetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recordDatedetailViewController.swift; sourceTree = "<group>"; };
+		00886B041F60F82300AE0EDE /* recordDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recordDateViewController.swift; sourceTree = "<group>"; };
+		00886B061F61A9AC00AE0EDE /* Dayoff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dayoff.swift; sourceTree = "<group>"; };
+		00886B081F61A9B700AE0EDE /* dayoffTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayoffTableViewCell.swift; sourceTree = "<group>"; };
+		00886B0A1F61A9C000AE0EDE /* detailmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailmailViewController.swift; sourceTree = "<group>"; };
+		00886B0E1F6CCAA800AE0EDE /* groupleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = groupleTableViewCell.swift; sourceTree = "<group>"; };
+		00886B0F1F6CCAA800AE0EDE /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		00886B121F6CCB4200AE0EDE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		00ACC3531F0B96AC00AC3F03 /* BossSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossSettingViewController.swift; sourceTree = "<group>"; };
+		00C0CDCE1F52B7430005CB9A /* BossHolidaySettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossHolidaySettingViewController.swift; sourceTree = "<group>"; };
+		00C0CDD01F52B9150005CB9A /* HolidaySettingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidaySettingCollectionViewCell.swift; sourceTree = "<group>"; };
+		00C0CDD21F5D4FC10005CB9A /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		00ED801D1EE4354300E9C72F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		00ED801F1EE4412A00E9C72F /* FinalApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		00ED80201EE4415700E9C72F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		00ED80211EE4415700E9C72F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		00ED80371EE7B92100E9C72F /* BossWorkRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossWorkRecordViewController.swift; sourceTree = "<group>"; };
+		00EEB7441F342355006A709D /* BossHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossHomeViewController.swift; sourceTree = "<group>"; };
+		00EEB7451F342355006A709D /* BossHomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		00EEB7461F342355006A709D /* collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collection.swift; sourceTree = "<group>"; };
+		00EEB74A1F343A24006A709D /* MemberDayOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberDayOffViewController.swift; sourceTree = "<group>"; };
+		01FF40048366E74B3F0A6207 /* Pods-FinalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalApp/Pods-FinalApp.debug.xcconfig"; sourceTree = "<group>"; };
+		05DEEA41079BA8325BA7E67B /* Pods-FinalAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAppTests/Pods-FinalAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1613BB3E45E5088CE8A6D259 /* Pods-FinalAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAppUITests/Pods-FinalAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18214FF01F5F154800091B65 /* recorddetailmontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recorddetailmontViewController.swift; sourceTree = "<group>"; };
+		183A2B041FA63BFF0085F1C4 /* bossdayoffcountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bossdayoffcountTableViewCell.swift; sourceTree = "<group>"; };
+		18629C101F82559900AAE31F /* MemberchangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberchangeViewController.swift; sourceTree = "<group>"; };
+		18629C121F8255FF00AAE31F /* changeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changeTableViewCell.swift; sourceTree = "<group>"; };
+		18629C141F8261FE00AAE31F /* Change.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Change.swift; sourceTree = "<group>"; };
+		18629C181F82712900AAE31F /* changedetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changedetailViewController.swift; sourceTree = "<group>"; };
+		18629C1C1FA318B400AAE31F /* dayoffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayoffViewController.swift; sourceTree = "<group>"; };
+		18629C201FA38AD800AAE31F /* dayoff2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayoff2ViewController.swift; sourceTree = "<group>"; };
+		18629C221FA39CB600AAE31F /* Memberchange2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memberchange2ViewController.swift; sourceTree = "<group>"; };
+		18629C2A1FA4570000AAE31F /* memberchangecountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memberchangecountTableViewCell.swift; sourceTree = "<group>"; };
+		18BC50881F5EC73C00CB8D7A /* MemberHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberHomeViewController.swift; sourceTree = "<group>"; };
+		273D25357C1D406693082036 /* Pods-FinalApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalApp/Pods-FinalApp.release.xcconfig"; sourceTree = "<group>"; };
+		3804E11A1F4403EA002FDE6A /* SalaryrecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryrecordViewController.swift; sourceTree = "<group>"; };
+		3804E11C1F440432002FDE6A /* SalaryrecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryrecordTableViewCell.swift; sourceTree = "<group>"; };
+		3804E11E1F44044D002FDE6A /* Salaryrecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salaryrecord.swift; sourceTree = "<group>"; };
+		381C05E21F1F299200CF0E6B /* recordMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recordMemberViewController.swift; sourceTree = "<group>"; };
+		381C05E41F1F2D3100CF0E6B /* recordMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recordMemberTableViewCell.swift; sourceTree = "<group>"; };
+		381C05EA1F25C70B00CF0E6B /* memberrecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memberrecord.swift; sourceTree = "<group>"; };
+		38B07F941F1128C8003F45DC /* detailpopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailpopViewController.swift; sourceTree = "<group>"; };
+		38CEE09A1F06AC8F00ED7F48 /* menuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuTableViewController.swift; sourceTree = "<group>"; };
+		38D976701F272097006A4C1C /* recordmonthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recordmonthViewController.swift; sourceTree = "<group>"; };
+		38DD9B511F38B6F500272A74 /* MemberdayoffrecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberdayoffrecordViewController.swift; sourceTree = "<group>"; };
+		38DD9B531F38B76C00272A74 /* memberdayoffTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memberdayoffTableViewCell.swift; sourceTree = "<group>"; };
+		38DD9B551F38B7C100272A74 /* Memberdayoff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memberdayoff.swift; sourceTree = "<group>"; };
+		38DD9B571F39863A00272A74 /* Memberdayoffrecord2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memberdayoffrecord2ViewController.swift; sourceTree = "<group>"; };
+		38DD9B591F42A8E800272A74 /* MemberWorkRecord2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberWorkRecord2ViewController.swift; sourceTree = "<group>"; };
+		38DD9B5B1F42AE8400272A74 /* MemberdetailrecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberdetailrecordViewController.swift; sourceTree = "<group>"; };
+		38F3DBB11F187B29008C643B /* BossSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossSheetViewController.swift; sourceTree = "<group>"; };
+		38F3DBB31F187B31008C643B /* ScheduleCalendarPickDialogCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCalendarPickDialogCollectionViewController.swift; sourceTree = "<group>"; };
+		38F3DBB51F187B3A008C643B /* ScheduleCalanderPickDialogCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCalanderPickDialogCollectionViewCell.swift; sourceTree = "<group>"; };
+		38F3DBB71F187B43008C643B /* BossAddSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossAddSheetViewController.swift; sourceTree = "<group>"; };
+		38F3DBB91F187B4B008C643B /* sheetName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sheetName.swift; sourceTree = "<group>"; };
+		38F3DBBB1F187B55008C643B /* sheetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sheetCell.swift; sourceTree = "<group>"; };
+		38F3DBBD1F187B5B008C643B /* showSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showSheet.swift; sourceTree = "<group>"; };
+		38F3DBC11F1B411E008C643B /* recorddateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recorddateTableViewCell.swift; sourceTree = "<group>"; };
+		38F3DBC31F1BB3BA008C643B /* daterecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = daterecord.swift; sourceTree = "<group>"; };
+		38F3DBC71F1C9422008C643B /* MembermenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembermenuTableViewController.swift; sourceTree = "<group>"; };
+		38F3DBCF1F1D1FDF008C643B /* MemberSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberSheetViewController.swift; sourceTree = "<group>"; };
+		38F3DBD11F1D2099008C643B /* MemberNotificationViewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberNotificationViewControllerViewController.swift; sourceTree = "<group>"; };
+		38F3DBD31F1D20BE008C643B /* MemberWorkRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberWorkRecordViewController.swift; sourceTree = "<group>"; };
+		3FC7B9D96994D5F77619F5D8 /* Pods_FinalAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F766CD11FB3FCFA002D2EEC /* BossSetupFulltimeSalaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossSetupFulltimeSalaryVC.swift; sourceTree = "<group>"; };
+		4F766CD21FB3FCFA002D2EEC /* BossSetup.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BossSetup.storyboard; sourceTree = "<group>"; };
+		4F766CD31FB3FCFA002D2EEC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4F766CD41FB3FCFA002D2EEC /* FullTimeSalaryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullTimeSalaryModel.swift; sourceTree = "<group>"; };
+		73E5AA7FEDC8A7673A11A4F3 /* Pods-FinalAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAppUITests/Pods-FinalAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C32E21334A4AF6F415E4727 /* Pods_FinalAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCB1C7801ED12891410F94A /* Pods_FinalApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D912624E1F6F6A54004D9C99 /* checkloginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkloginViewController.swift; sourceTree = "<group>"; };
+		D918ED6E1F5E4BF500790B55 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D918ED6F1F5E4BF500790B55 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D918ED701F5E4BF500790B55 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D918ED711F5E4BF500790B55 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		D918ED761F5E4F4800790B55 /* FBCompanyNumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBCompanyNumViewController.swift; sourceTree = "<group>"; };
+		D9F6DA261F380C1900C346B9 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		D9F6DA281F380C2500C346B9 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		D9F6DA2A1F380C3200C346B9 /* QRcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeViewController.swift; sourceTree = "<group>"; };
+		D9F6DA2C1F380C4700C346B9 /* setlocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setlocationViewController.swift; sourceTree = "<group>"; };
+		D9F6DA2E1F380C4E00C346B9 /* sclockinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sclockinViewController.swift; sourceTree = "<group>"; };
+		DD4865E2D83A48A5BC71E8EC /* Pods-FinalAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalAppTests/Pods-FinalAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00406FC31ECB1B1A0019BA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AB9530AE991C8CF2245F99 /* Pods_FinalApp.framework in Frameworks */,
+				D918ED731F5E4BF500790B55 /* FBSDKCoreKit.framework in Frameworks */,
+				D918ED751F5E4BF500790B55 /* FBSDKShareKit.framework in Frameworks */,
+				D918ED741F5E4BF500790B55 /* FBSDKLoginKit.framework in Frameworks */,
+				D918ED721F5E4BF500790B55 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00406FDA1ECB1B1A0019BA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00868BA945539C0A8E875913 /* Pods_FinalAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00406FE51ECB1B1A0019BA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACEF6308129B6C396E6742B /* Pods_FinalAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00406FBD1ECB1B1A0019BA81 = {
+			isa = PBXGroup;
+			children = (
+				00406FC81ECB1B1A0019BA81 /* FinalApp */,
+				00406FE01ECB1B1A0019BA81 /* FinalAppTests */,
+				00406FEB1ECB1B1A0019BA81 /* FinalAppUITests */,
+				00406FC71ECB1B1A0019BA81 /* Products */,
+				2104FFEDBF42D94FA748BF3B /* Pods */,
+				305BD0998A0B58B490AC6B8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00406FC71ECB1B1A0019BA81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00406FC61ECB1B1A0019BA81 /* FinalApp.app */,
+				00406FDD1ECB1B1A0019BA81 /* FinalAppTests.xctest */,
+				00406FE81ECB1B1A0019BA81 /* FinalAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00406FC81ECB1B1A0019BA81 /* FinalApp */ = {
+			isa = PBXGroup;
+			children = (
+				4F766CD31FB3FCFA002D2EEC /* BaseViewController.swift */,
+				4F766CD21FB3FCFA002D2EEC /* BossSetup.storyboard */,
+				4F766CD11FB3FCFA002D2EEC /* BossSetupFulltimeSalaryVC.swift */,
+				4F766CD41FB3FCFA002D2EEC /* FullTimeSalaryModel.swift */,
+				00406FFA1ECB1B560019BA81 /* GoogleService-Info.plist */,
+				38F3DBB11F187B29008C643B /* BossSheetViewController.swift */,
+				38F3DBB31F187B31008C643B /* ScheduleCalendarPickDialogCollectionViewController.swift */,
+				38F3DBB51F187B3A008C643B /* ScheduleCalanderPickDialogCollectionViewCell.swift */,
+				38F3DBB71F187B43008C643B /* BossAddSheetViewController.swift */,
+				38F3DBB91F187B4B008C643B /* sheetName.swift */,
+				38F3DBBB1F187B55008C643B /* sheetCell.swift */,
+				38F3DBBD1F187B5B008C643B /* showSheet.swift */,
+				000F013C1F73B83A0003F414 /* BossNotificationViewController.swift */,
+				00886B061F61A9AC00AE0EDE /* Dayoff.swift */,
+				00886B081F61A9B700AE0EDE /* dayoffTableViewCell.swift */,
+				18629C1C1FA318B400AAE31F /* dayoffViewController.swift */,
+				18629C2A1FA4570000AAE31F /* memberchangecountTableViewCell.swift */,
+				38F3DBC71F1C9422008C643B /* MembermenuTableViewController.swift */,
+				18629C201FA38AD800AAE31F /* dayoff2ViewController.swift */,
+				00886B0A1F61A9C000AE0EDE /* detailmailViewController.swift */,
+				00ED80371EE7B92100E9C72F /* BossWorkRecordViewController.swift */,
+				381C05E21F1F299200CF0E6B /* recordMemberViewController.swift */,
+				38F3DBC11F1B411E008C643B /* recorddateTableViewCell.swift */,
+				38D976701F272097006A4C1C /* recordmonthViewController.swift */,
+				00886B021F60F81800AE0EDE /* recordDatedetailViewController.swift */,
+				00886B041F60F82300AE0EDE /* recordDateViewController.swift */,
+				18214FF01F5F154800091B65 /* recorddetailmontViewController.swift */,
+				381C05E41F1F2D3100CF0E6B /* recordMemberTableViewCell.swift */,
+				00ACC3531F0B96AC00AC3F03 /* BossSettingViewController.swift */,
+				00406FC91ECB1B1A0019BA81 /* AppDelegate.swift */,
+				00406FFC1ECB1E980019BA81 /* HomeViewController.swift */,
+				0066E7731ED0827A003C7534 /* SignUpViewController.swift */,
+				00437BE61ECEAE8F002BAA90 /* LoginViewController.swift */,
+				D912624E1F6F6A54004D9C99 /* checkloginViewController.swift */,
+				002AD9A31ED0185D004B8B95 /* ResetPasswordViewController.swift */,
+				38B07F941F1128C8003F45DC /* detailpopViewController.swift */,
+				0066E7771ED191EB003C7534 /* RoundButton.swift */,
+				38CEE09A1F06AC8F00ED7F48 /* menuTableViewController.swift */,
+				00ED801F1EE4412A00E9C72F /* FinalApp-Bridging-Header.h */,
+				00ED80201EE4415700E9C72F /* SWRevealViewController.h */,
+				00ED80211EE4415700E9C72F /* SWRevealViewController.m */,
+				00406FD31ECB1B1A0019BA81 /* Assets.xcassets */,
+				00ED801D1EE4354300E9C72F /* Main.storyboard */,
+				183A2B041FA63BFF0085F1C4 /* bossdayoffcountTableViewCell.swift */,
+				18629C181F82712900AAE31F /* changedetailViewController.swift */,
+				18629C141F8261FE00AAE31F /* Change.swift */,
+				18629C121F8255FF00AAE31F /* changeTableViewCell.swift */,
+				18629C101F82559900AAE31F /* MemberchangeViewController.swift */,
+				18629C221FA39CB600AAE31F /* Memberchange2ViewController.swift */,
+				00886B121F6CCB4200AE0EDE /* User.swift */,
+				00886B0E1F6CCAA800AE0EDE /* groupleTableViewCell.swift */,
+				00886B0F1F6CCAA800AE0EDE /* GroupViewController.swift */,
+				3804E11A1F4403EA002FDE6A /* SalaryrecordViewController.swift */,
+				3804E11C1F440432002FDE6A /* SalaryrecordTableViewCell.swift */,
+				3804E11E1F44044D002FDE6A /* Salaryrecord.swift */,
+				38DD9B5B1F42AE8400272A74 /* MemberdetailrecordViewController.swift */,
+				D918ED761F5E4F4800790B55 /* FBCompanyNumViewController.swift */,
+				00EEB74A1F343A24006A709D /* MemberDayOffViewController.swift */,
+				38DD9B511F38B6F500272A74 /* MemberdayoffrecordViewController.swift */,
+				38DD9B571F39863A00272A74 /* Memberdayoffrecord2ViewController.swift */,
+				0044E4BF1F39F09B00861D4C /* MemberDayoffDetailsViewController.swift */,
+				000F013A1F735E950003F414 /* MemberEditDayoffViewController.swift */,
+				38DD9B551F38B7C100272A74 /* Memberdayoff.swift */,
+				38DD9B531F38B76C00272A74 /* memberdayoffTableViewCell.swift */,
+				38F3DBD31F1D20BE008C643B /* MemberWorkRecordViewController.swift */,
+				38DD9B591F42A8E800272A74 /* MemberWorkRecord2ViewController.swift */,
+				38F3DBD11F1D2099008C643B /* MemberNotificationViewControllerViewController.swift */,
+				00406FD81ECB1B1A0019BA81 /* Info.plist */,
+				00406FD01ECB1B1A0019BA81 /* FinalApp.xcdatamodeld */,
+				00406FD51ECB1B1A0019BA81 /* LaunchScreen.storyboard */,
+				38F3DBC31F1BB3BA008C643B /* daterecord.swift */,
+				381C05EA1F25C70B00CF0E6B /* memberrecord.swift */,
+				006334291F2AE792007BF837 /* BossSalaryViewController.swift */,
+				0063342A1F2AE792007BF837 /* BossShowSalaryViewController.swift */,
+				00853D721FD5A7E700BB5F3B /* BossShowSalaryFTViewController.swift */,
+				D9F6DA2C1F380C4700C346B9 /* setlocationViewController.swift */,
+				D9F6DA2E1F380C4E00C346B9 /* sclockinViewController.swift */,
+				D9F6DA281F380C2500C346B9 /* Clock.swift */,
+				18BC50881F5EC73C00CB8D7A /* MemberHomeViewController.swift */,
+				D9F6DA2A1F380C3200C346B9 /* QRcodeViewController.swift */,
+				0063342B1F2AE792007BF837 /* BossSalaryDetailsViewController.swift */,
+				0063342C1F2AE792007BF837 /* BossSalarySettingViewController.swift */,
+				0063342D1F2AE792007BF837 /* salarySettingCell.swift */,
+				D9F6DA261F380C1900C346B9 /* QRScannerController.swift */,
+				0063342E1F2AE792007BF837 /* hourlyPaid.swift */,
+				0063342F1F2AE792007BF837 /* salaryCell.swift */,
+				006334301F2AE792007BF837 /* salary.swift */,
+				00EEB7441F342355006A709D /* BossHomeViewController.swift */,
+				00EEB7451F342355006A709D /* BossHomeCollectionViewCell.swift */,
+				00EEB7461F342355006A709D /* collection.swift */,
+				38F3DBCF1F1D1FDF008C643B /* MemberSheetViewController.swift */,
+				00622E231F454C25008DADAC /* MemberSheetCollectionViewCell.swift */,
+				00622E271F455656008DADAC /* memberSheet.swift */,
+				00C0CDCE1F52B7430005CB9A /* BossHolidaySettingViewController.swift */,
+				00C0CDD01F52B9150005CB9A /* HolidaySettingCollectionViewCell.swift */,
+				00C0CDD21F5D4FC10005CB9A /* EditProfileViewController.swift */,
+				0058F6571FDD59E8008DB927 /* healthCell.swift */,
+				0058F6581FDD59E9008DB927 /* healthWorkInsurance.swift */,
+				0058F6561FDD59E7008DB927 /* totalHealthInsuranceViewController.swift */,
+				0058F65C1FDD5E57008DB927 /* totalWorkInsuranceViewController.swift */,
+				0058F65E1FDD600C008DB927 /* workCell.swift */,
+			);
+			path = FinalApp;
+			sourceTree = "<group>";
+		};
+		00406FE01ECB1B1A0019BA81 /* FinalAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00406FE11ECB1B1A0019BA81 /* FinalAppTests.swift */,
+				00406FE31ECB1B1A0019BA81 /* Info.plist */,
+			);
+			path = FinalAppTests;
+			sourceTree = "<group>";
+		};
+		00406FEB1ECB1B1A0019BA81 /* FinalAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00406FEC1ECB1B1A0019BA81 /* FinalAppUITests.swift */,
+				00406FEE1ECB1B1A0019BA81 /* Info.plist */,
+			);
+			path = FinalAppUITests;
+			sourceTree = "<group>";
+		};
+		2104FFEDBF42D94FA748BF3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01FF40048366E74B3F0A6207 /* Pods-FinalApp.debug.xcconfig */,
+				273D25357C1D406693082036 /* Pods-FinalApp.release.xcconfig */,
+				05DEEA41079BA8325BA7E67B /* Pods-FinalAppTests.debug.xcconfig */,
+				DD4865E2D83A48A5BC71E8EC /* Pods-FinalAppTests.release.xcconfig */,
+				1613BB3E45E5088CE8A6D259 /* Pods-FinalAppUITests.debug.xcconfig */,
+				73E5AA7FEDC8A7673A11A4F3 /* Pods-FinalAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		305BD0998A0B58B490AC6B8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D918ED6E1F5E4BF500790B55 /* Bolts.framework */,
+				D918ED6F1F5E4BF500790B55 /* FBSDKCoreKit.framework */,
+				D918ED701F5E4BF500790B55 /* FBSDKLoginKit.framework */,
+				D918ED711F5E4BF500790B55 /* FBSDKShareKit.framework */,
+				9DCB1C7801ED12891410F94A /* Pods_FinalApp.framework */,
+				8C32E21334A4AF6F415E4727 /* Pods_FinalAppTests.framework */,
+				3FC7B9D96994D5F77619F5D8 /* Pods_FinalAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00406FC51ECB1B1A0019BA81 /* FinalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00406FF11ECB1B1A0019BA81 /* Build configuration list for PBXNativeTarget "FinalApp" */;
+			buildPhases = (
+				0AD475E7841E86F13A95CE1A /* [CP] Check Pods Manifest.lock */,
+				00406FC21ECB1B1A0019BA81 /* Sources */,
+				00406FC31ECB1B1A0019BA81 /* Frameworks */,
+				00406FC41ECB1B1A0019BA81 /* Resources */,
+				2EE4F36023C82069F7D06EEC /* [CP] Embed Pods Frameworks */,
+				FD4D843366742C69DFA4A88C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalApp;
+			productName = FinalApp;
+			productReference = 00406FC61ECB1B1A0019BA81 /* FinalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00406FDC1ECB1B1A0019BA81 /* FinalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00406FF41ECB1B1A0019BA81 /* Build configuration list for PBXNativeTarget "FinalAppTests" */;
+			buildPhases = (
+				1AE96920A342C0DC89A7B308 /* [CP] Check Pods Manifest.lock */,
+				00406FD91ECB1B1A0019BA81 /* Sources */,
+				00406FDA1ECB1B1A0019BA81 /* Frameworks */,
+				00406FDB1ECB1B1A0019BA81 /* Resources */,
+				52E2A8802DB963A0FDA30874 /* [CP] Embed Pods Frameworks */,
+				CFEFF660354ECD30611202BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00406FDF1ECB1B1A0019BA81 /* PBXTargetDependency */,
+			);
+			name = FinalAppTests;
+			productName = FinalAppTests;
+			productReference = 00406FDD1ECB1B1A0019BA81 /* FinalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00406FE71ECB1B1A0019BA81 /* FinalAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00406FF71ECB1B1A0019BA81 /* Build configuration list for PBXNativeTarget "FinalAppUITests" */;
+			buildPhases = (
+				E2888E28734E5255151A92B6 /* [CP] Check Pods Manifest.lock */,
+				00406FE41ECB1B1A0019BA81 /* Sources */,
+				00406FE51ECB1B1A0019BA81 /* Frameworks */,
+				00406FE61ECB1B1A0019BA81 /* Resources */,
+				098BAF332EF74A485A1E2D02 /* [CP] Embed Pods Frameworks */,
+				93C86C2E5BC480BD6D4D219E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00406FEA1ECB1B1A0019BA81 /* PBXTargetDependency */,
+			);
+			name = FinalAppUITests;
+			productName = FinalAppUITests;
+			productReference = 00406FE81ECB1B1A0019BA81 /* FinalAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00406FBE1ECB1B1A0019BA81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Orla;
+				TargetAttributes = {
+					00406FC51ECB1B1A0019BA81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MFNYXA2D53;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					00406FDC1ECB1B1A0019BA81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00406FC51ECB1B1A0019BA81;
+					};
+					00406FE71ECB1B1A0019BA81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00406FC51ECB1B1A0019BA81;
+					};
+				};
+			};
+			buildConfigurationList = 00406FC11ECB1B1A0019BA81 /* Build configuration list for PBXProject "FinalApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00406FBD1ECB1B1A0019BA81;
+			productRefGroup = 00406FC71ECB1B1A0019BA81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00406FC51ECB1B1A0019BA81 /* FinalApp */,
+				00406FDC1ECB1B1A0019BA81 /* FinalAppTests */,
+				00406FE71ECB1B1A0019BA81 /* FinalAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00406FC41ECB1B1A0019BA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ED801E1EE4354300E9C72F /* Main.storyboard in Resources */,
+				00406FD71ECB1B1A0019BA81 /* LaunchScreen.storyboard in Resources */,
+				4F766CD61FB3FCFB002D2EEC /* BossSetup.storyboard in Resources */,
+				00406FFB1ECB1B560019BA81 /* GoogleService-Info.plist in Resources */,
+				00406FD41ECB1B1A0019BA81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00406FDB1ECB1B1A0019BA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00406FE61ECB1B1A0019BA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		098BAF332EF74A485A1E2D02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAppUITests/Pods-FinalAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AD475E7841E86F13A95CE1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1AE96920A342C0DC89A7B308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EE4F36023C82069F7D06EEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalApp/Pods-FinalApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52E2A8802DB963A0FDA30874 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAppTests/Pods-FinalAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C86C2E5BC480BD6D4D219E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAppUITests/Pods-FinalAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFEFF660354ECD30611202BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalAppTests/Pods-FinalAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2888E28734E5255151A92B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4D843366742C69DFA4A88C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalApp/Pods-FinalApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00406FC21ECB1B1A0019BA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3804E11D1F440432002FDE6A /* SalaryrecordTableViewCell.swift in Sources */,
+				4F766CD81FB3FCFB002D2EEC /* FullTimeSalaryModel.swift in Sources */,
+				00886B0B1F61A9C000AE0EDE /* detailmailViewController.swift in Sources */,
+				38F3DBD21F1D2099008C643B /* MemberNotificationViewControllerViewController.swift in Sources */,
+				D9F6DA271F380C1900C346B9 /* QRScannerController.swift in Sources */,
+				0066E7741ED0827A003C7534 /* SignUpViewController.swift in Sources */,
+				38F3DBBC1F187B55008C643B /* sheetCell.swift in Sources */,
+				00622E241F454C25008DADAC /* MemberSheetCollectionViewCell.swift in Sources */,
+				18629C131F8255FF00AAE31F /* changeTableViewCell.swift in Sources */,
+				38F3DBC41F1BB3BA008C643B /* daterecord.swift in Sources */,
+				3804E11F1F44044D002FDE6A /* Salaryrecord.swift in Sources */,
+				D912624F1F6F6A54004D9C99 /* checkloginViewController.swift in Sources */,
+				00EEB7471F342355006A709D /* BossHomeViewController.swift in Sources */,
+				006334371F2AE792007BF837 /* salaryCell.swift in Sources */,
+				000F013D1F73B83A0003F414 /* BossNotificationViewController.swift in Sources */,
+				D9F6DA2D1F380C4700C346B9 /* setlocationViewController.swift in Sources */,
+				4F766CD71FB3FCFB002D2EEC /* BaseViewController.swift in Sources */,
+				D9F6DA291F380C2500C346B9 /* Clock.swift in Sources */,
+				18BC50891F5EC73C00CB8D7A /* MemberHomeViewController.swift in Sources */,
+				006334381F2AE792007BF837 /* salary.swift in Sources */,
+				38CEE09B1F06AC8F00ED7F48 /* menuTableViewController.swift in Sources */,
+				00886B051F60F82300AE0EDE /* recordDateViewController.swift in Sources */,
+				38F3DBBA1F187B4B008C643B /* sheetName.swift in Sources */,
+				00406FD21ECB1B1A0019BA81 /* FinalApp.xcdatamodeld in Sources */,
+				006334361F2AE792007BF837 /* hourlyPaid.swift in Sources */,
+				D9F6DA2B1F380C3200C346B9 /* QRcodeViewController.swift in Sources */,
+				381C05E31F1F299300CF0E6B /* recordMemberViewController.swift in Sources */,
+				00886B071F61A9AC00AE0EDE /* Dayoff.swift in Sources */,
+				00853D731FD5A7E700BB5F3B /* BossShowSalaryFTViewController.swift in Sources */,
+				00886B091F61A9B700AE0EDE /* dayoffTableViewCell.swift in Sources */,
+				38F3DBC21F1B411E008C643B /* recorddateTableViewCell.swift in Sources */,
+				0066E7781ED191EB003C7534 /* RoundButton.swift in Sources */,
+				183A2B051FA63BFF0085F1C4 /* bossdayoffcountTableViewCell.swift in Sources */,
+				00ED80221EE4415700E9C72F /* SWRevealViewController.m in Sources */,
+				D918ED771F5E4F4800790B55 /* FBCompanyNumViewController.swift in Sources */,
+				38F3DBBE1F187B5B008C643B /* showSheet.swift in Sources */,
+				00622E281F455656008DADAC /* memberSheet.swift in Sources */,
+				38F3DBB61F187B3A008C643B /* ScheduleCalanderPickDialogCollectionViewCell.swift in Sources */,
+				00ED80381EE7B92100E9C72F /* BossWorkRecordViewController.swift in Sources */,
+				38DD9B521F38B6F500272A74 /* MemberdayoffrecordViewController.swift in Sources */,
+				00EEB74B1F343A24006A709D /* MemberDayOffViewController.swift in Sources */,
+				00406FCA1ECB1B1A0019BA81 /* AppDelegate.swift in Sources */,
+				006334321F2AE792007BF837 /* BossShowSalaryViewController.swift in Sources */,
+				00C0CDD31F5D4FC10005CB9A /* EditProfileViewController.swift in Sources */,
+				002AD9A41ED0185D004B8B95 /* ResetPasswordViewController.swift in Sources */,
+				00886B111F6CCAA800AE0EDE /* GroupViewController.swift in Sources */,
+				00EEB7491F342355006A709D /* collection.swift in Sources */,
+				381C05EB1F25C70B00CF0E6B /* memberrecord.swift in Sources */,
+				00ACC3541F0B96AC00AC3F03 /* BossSettingViewController.swift in Sources */,
+				18214FF11F5F154800091B65 /* recorddetailmontViewController.swift in Sources */,
+				3804E11B1F4403EA002FDE6A /* SalaryrecordViewController.swift in Sources */,
+				18629C211FA38AD800AAE31F /* dayoff2ViewController.swift in Sources */,
+				18629C1D1FA318B400AAE31F /* dayoffViewController.swift in Sources */,
+				38F3DBD01F1D1FDF008C643B /* MemberSheetViewController.swift in Sources */,
+				00886B101F6CCAA800AE0EDE /* groupleTableViewCell.swift in Sources */,
+				00C0CDD11F52B9150005CB9A /* HolidaySettingCollectionViewCell.swift in Sources */,
+				00EEB7481F342355006A709D /* BossHomeCollectionViewCell.swift in Sources */,
+				00437BE71ECEAE90002BAA90 /* LoginViewController.swift in Sources */,
+				38DD9B5A1F42A8E800272A74 /* MemberWorkRecord2ViewController.swift in Sources */,
+				18629C191F82712900AAE31F /* changedetailViewController.swift in Sources */,
+				4F766CD51FB3FCFB002D2EEC /* BossSetupFulltimeSalaryVC.swift in Sources */,
+				00886B031F60F81800AE0EDE /* recordDatedetailViewController.swift in Sources */,
+				38F3DBD41F1D20BE008C643B /* MemberWorkRecordViewController.swift in Sources */,
+				006334331F2AE792007BF837 /* BossSalaryDetailsViewController.swift in Sources */,
+				D9F6DA2F1F380C4E00C346B9 /* sclockinViewController.swift in Sources */,
+				0058F65A1FDD59E9008DB927 /* healthCell.swift in Sources */,
+				006334341F2AE792007BF837 /* BossSalarySettingViewController.swift in Sources */,
+				38F3DBC81F1C9422008C643B /* MembermenuTableViewController.swift in Sources */,
+				18629C151F8261FE00AAE31F /* Change.swift in Sources */,
+				18629C231FA39CB600AAE31F /* Memberchange2ViewController.swift in Sources */,
+				38B07F951F1128C8003F45DC /* detailpopViewController.swift in Sources */,
+				38DD9B561F38B7C100272A74 /* Memberdayoff.swift in Sources */,
+				0058F65B1FDD59E9008DB927 /* healthWorkInsurance.swift in Sources */,
+				00886B131F6CCB4200AE0EDE /* User.swift in Sources */,
+				006334311F2AE792007BF837 /* BossSalaryViewController.swift in Sources */,
+				0058F65D1FDD5E57008DB927 /* totalWorkInsuranceViewController.swift in Sources */,
+				38D976711F272097006A4C1C /* recordmonthViewController.swift in Sources */,
+				38F3DBB81F187B43008C643B /* BossAddSheetViewController.swift in Sources */,
+				0058F65F1FDD600C008DB927 /* workCell.swift in Sources */,
+				38DD9B581F39863A00272A74 /* Memberdayoffrecord2ViewController.swift in Sources */,
+				0044E4C01F39F09B00861D4C /* MemberDayoffDetailsViewController.swift in Sources */,
+				18629C111F82559900AAE31F /* MemberchangeViewController.swift in Sources */,
+				00406FFD1ECB1E980019BA81 /* HomeViewController.swift in Sources */,
+				38DD9B541F38B76C00272A74 /* memberdayoffTableViewCell.swift in Sources */,
+				000F013B1F735E950003F414 /* MemberEditDayoffViewController.swift in Sources */,
+				38F3DBB41F187B31008C643B /* ScheduleCalendarPickDialogCollectionViewController.swift in Sources */,
+				006334351F2AE792007BF837 /* salarySettingCell.swift in Sources */,
+				38F3DBB21F187B29008C643B /* BossSheetViewController.swift in Sources */,
+				381C05E51F1F2D3100CF0E6B /* recordMemberTableViewCell.swift in Sources */,
+				18629C2B1FA4570000AAE31F /* memberchangecountTableViewCell.swift in Sources */,
+				0058F6591FDD59E9008DB927 /* totalHealthInsuranceViewController.swift in Sources */,
+				38DD9B5C1F42AE8400272A74 /* MemberdetailrecordViewController.swift in Sources */,
+				00C0CDCF1F52B7430005CB9A /* BossHolidaySettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00406FD91ECB1B1A0019BA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00406FE21ECB1B1A0019BA81 /* FinalAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00406FE41ECB1B1A0019BA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00406FED1ECB1B1A0019BA81 /* FinalAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00406FDF1ECB1B1A0019BA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00406FC51ECB1B1A0019BA81 /* FinalApp */;
+			targetProxy = 00406FDE1ECB1B1A0019BA81 /* PBXContainerItemProxy */;
+		};
+		00406FEA1ECB1B1A0019BA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00406FC51ECB1B1A0019BA81 /* FinalApp */;
+			targetProxy = 00406FE91ECB1B1A0019BA81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00406FD51ECB1B1A0019BA81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00406FD61ECB1B1A0019BA81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00406FEF1ECB1B1A0019BA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00406FF01ECB1B1A0019BA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00406FF21ECB1B1A0019BA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01FF40048366E74B3F0A6207 /* Pods-FinalApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MFNYXA2D53;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FinalApp",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FinalApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.FinalApp112;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FinalApp/FinalApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		00406FF31ECB1B1A0019BA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273D25357C1D406693082036 /* Pods-FinalApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MFNYXA2D53;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FinalApp",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FinalApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.FinalApp112;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FinalApp/FinalApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		00406FF51ECB1B1A0019BA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05DEEA41079BA8325BA7E67B /* Pods-FinalAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinalAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team.FinalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalApp.app/FinalApp";
+			};
+			name = Debug;
+		};
+		00406FF61ECB1B1A0019BA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4865E2D83A48A5BC71E8EC /* Pods-FinalAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinalAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team.FinalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalApp.app/FinalApp";
+			};
+			name = Release;
+		};
+		00406FF81ECB1B1A0019BA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1613BB3E45E5088CE8A6D259 /* Pods-FinalAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FinalAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team.FinalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FinalApp;
+			};
+			name = Debug;
+		};
+		00406FF91ECB1B1A0019BA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E5AA7FEDC8A7673A11A4F3 /* Pods-FinalAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FinalAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Team.FinalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FinalApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00406FC11ECB1B1A0019BA81 /* Build configuration list for PBXProject "FinalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00406FEF1ECB1B1A0019BA81 /* Debug */,
+				00406FF01ECB1B1A0019BA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00406FF11ECB1B1A0019BA81 /* Build configuration list for PBXNativeTarget "FinalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00406FF21ECB1B1A0019BA81 /* Debug */,
+				00406FF31ECB1B1A0019BA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00406FF41ECB1B1A0019BA81 /* Build configuration list for PBXNativeTarget "FinalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00406FF51ECB1B1A0019BA81 /* Debug */,
+				00406FF61ECB1B1A0019BA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00406FF71ECB1B1A0019BA81 /* Build configuration list for PBXNativeTarget "FinalAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00406FF81ECB1B1A0019BA81 /* Debug */,
+				00406FF91ECB1B1A0019BA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00406FD01ECB1B1A0019BA81 /* FinalApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00406FD11ECB1B1A0019BA81 /* FinalApp.xcdatamodel */,
+			);
+			currentVersion = 00406FD11ECB1B1A0019BA81 /* FinalApp.xcdatamodel */;
+			path = FinalApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00406FBE1ECB1B1A0019BA81 /* Project object */;
+}
